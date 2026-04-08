@@ -15,8 +15,8 @@ The pipeline has 4 phases:
 
 - **Python 3.8+**
 - **[Claude Code](https://claude.ai/code)** CLI installed
-- **Node.js** (for Playwright-based browser scraping)
-- **No API keys required** — all 5 platforms are scraped via Playwright or free public endpoints
+- **YouTube Data API v3 key** ([get one here](https://console.cloud.google.com/apis/credentials)) — the only required API key
+- **Node.js** (for Playwright-based scraping of X, Instagram, Threads)
 
 ## Setup
 
@@ -28,22 +28,26 @@ cd script-agent-system
 # Install Python dependencies
 pip install -r requirements.txt
 
-# Install Playwright (for browser-based scraping)
+# Install Playwright (for X, Instagram, Threads scraping)
 npm install
+
+# Set up your YouTube API key
+cp .env.example .env
+# Edit .env and set YOUTUBE_API_KEY
 
 # Verify everything is ready
 python3 run.py --check
 ```
 
-### Platform Scraping — Zero API Keys
+### API Keys
 
-| Platform  | Method |
-|-----------|--------|
-| YouTube   | Playwright browser scraping |
-| Reddit    | Free public `.json` endpoints |
-| X/Twitter | Playwright browser scraping |
-| Instagram | Playwright browser scraping |
-| Threads   | Playwright browser scraping |
+| Platform  | Key Required? | Method |
+|-----------|--------------|--------|
+| YouTube   | Yes | YouTube Data API v3 |
+| Reddit    | No | Free public `.json` endpoints |
+| X/Twitter | No | Playwright browser scraping |
+| Instagram | No | Playwright browser scraping |
+| Threads   | No | Playwright browser scraping |
 
 ### Google Drive Upload (Optional)
 
