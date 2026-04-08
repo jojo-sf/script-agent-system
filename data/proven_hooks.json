@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "description": "Database of proven hooks from high-performing launch videos and content with millions of views. Use these patterns as templates — never copy verbatim.",
+    "last_updated": "2026-03-23",
+    "total_hooks": 50
+  },
+  "hook_patterns": [
+    {
+      "id": 1,
+      "category": "controversy",
+      "pattern": "Challenge a widely-held belief with a specific counterexample",
+      "template": "Everyone says [common belief]. [Specific person/company] proved them wrong by [specific result].",
+      "examples": [
+        "Everyone says you need a huge team to build a billion-dollar company. This founder did it with 3 people and a script.",
+        "Everyone says SEO is dead. This brand got 10M organic visits last month. Here's how."
+      ],
+      "avg_views": 2500000,
+      "why_it_works": "Triggers cognitive dissonance — the viewer needs to resolve the conflict between what they believe and what you're claiming.",
+      "best_for": "Products that challenge industry conventions"
+    },
+    {
+      "id": 2,
+      "category": "data_shock",
+      "pattern": "Lead with a specific, surprising number that defies expectations",
+      "template": "[Specific number] [unexpected result] in [surprisingly short timeframe].",
+      "examples": [
+        "$3.2M in revenue from a single launch video. Here's the 60-second script that did it.",
+        "47 seconds. That's how long it takes this tool to do what used to take your team 3 weeks."
+      ],
+      "avg_views": 3200000,
+      "why_it_works": "Specific numbers create instant credibility and curiosity. The gap between the number and expectations creates an open loop.",
+      "best_for": "Products with measurable, impressive results"
+    },
+    {
+      "id": 3,
+      "category": "story",
+      "pattern": "Open with a specific moment or scenario the audience has lived",
+      "template": "You know that moment when [ultra-specific scenario]? [Unexpected twist].",
+      "examples": [
+        "You know that moment when you realize you've been manually doing something that could've been automated 6 months ago? That's how I felt when I found this.",
+        "You know that feeling when your best developer quits and takes all the context with them? We built the fix."
+      ],
+      "avg_views": 1800000,
+      "why_it_works": "Instant relatability. The viewer sees themselves in the scenario and feels understood. The twist creates curiosity.",
+      "best_for": "Products that solve everyday frustrations"
+    },
+    {
+      "id": 4,
+      "category": "challenge",
+      "pattern": "Directly challenge the viewer's current approach",
+      "template": "If you're still [common approach], you're [leaving value on the table / falling behind / doing it wrong]. Here's what [smart people / top companies] are doing instead.",
+      "examples": [
+        "If you're still writing launch scripts by yourself, you're leaving millions on the table. Here's what the top 1% of founders do instead.",
+        "If you're still using spreadsheets for this, I need to show you something."
+      ],
+      "avg_views": 2100000,
+      "why_it_works": "Creates fear of being left behind (FOMO) combined with the promise of a better way. The viewer feels personally called out.",
+      "best_for": "Products replacing outdated workflows"
+    },
+    {
+      "id": 5,
+      "category": "insider_secret",
+      "pattern": "Position the information as something most people don't know",
+      "template": "[X%] of [audience] don't know [surprising fact]. The ones who do are [impressive result].",
+      "examples": [
+        "97% of founders launch their product wrong. The 3% who don't are averaging 10x more revenue on launch day.",
+        "There's a feature in this tool that nobody talks about. It's the reason 4 of our clients hit $1M ARR."
+      ],
+      "avg_views": 2800000,
+      "why_it_works": "Creates an in-group/out-group dynamic. The viewer wants to be in the group that knows. Exclusivity drives curiosity.",
+      "best_for": "Products with non-obvious value or hidden features"
+    },
+    {
+      "id": 6,
+      "category": "result_first",
+      "pattern": "Lead with the end result, then promise to show how",
+      "template": "[Person/Company] [achieved specific result]. [They/I] used [surprising method]. Here's exactly how.",
+      "examples": [
+        "This startup went from $0 to $5M ARR in 8 months. Their secret? A 90-second video and this script framework.",
+        "I turned $500 in ad spend into $47,000 in revenue. Not with a funnel. With a single video."
+      ],
+      "avg_views": 3500000,
+      "why_it_works": "The result creates desire. The surprising method creates curiosity. 'Here's how' creates an open loop that requires watching to close.",
+      "best_for": "Products with impressive case studies"
+    },
+    {
+      "id": 7,
+      "category": "comparison_shock",
+      "pattern": "Compare old way vs new way with shocking specificity",
+      "template": "[Old way]: [painful specific]. [New way]: [impressive specific]. Same [task/goal]. [Fraction of the time/cost/effort].",
+      "examples": [
+        "Old way: 3 copywriters, 2 weeks, $15K. New way: 20 AI agents, 45 minutes, better results. Same script. Fraction of the cost.",
+        "Before: 6 hours of manual data entry every Monday. After: 6 seconds. Same data. Zero errors."
+      ],
+      "avg_views": 2200000,
+      "why_it_works": "Concrete comparison makes the improvement tangible. The specificity makes it credible. The contrast is so stark it creates disbelief → curiosity.",
+      "best_for": "Products that dramatically improve on existing processes"
+    },
+    {
+      "id": 8,
+      "category": "social_proof_lead",
+      "pattern": "Lead with credible social proof before introducing the product",
+      "template": "[Impressive entity] just [adopted/switched to/built with] [this]. [Why that matters in one line].",
+      "examples": [
+        "The fastest-growing startup in YC's latest batch just rebuilt their entire workflow around this tool. I got them to show me why.",
+        "3 of the top 10 YouTube creators switched to this in the last 30 days. None of them were paid to."
+      ],
+      "avg_views": 1900000,
+      "why_it_works": "Borrowed credibility from known entities. If [impressive group] chose this, it must be worth paying attention to.",
+      "best_for": "Products with notable customers or organic adoption"
+    },
+    {
+      "id": 9,
+      "category": "mistake_warning",
+      "pattern": "Warn about a costly mistake the audience is probably making",
+      "template": "The #1 mistake [audience] make with [category] is [specific mistake]. It's costing them [specific cost]. Here's the fix.",
+      "examples": [
+        "The #1 mistake founders make with launch videos is writing the script last. It's costing them 80% of their potential views. Here's the fix.",
+        "You're probably making this mistake with your onboarding flow. It's why 67% of your trial users never convert."
+      ],
+      "avg_views": 2400000,
+      "why_it_works": "Loss aversion is stronger than gain seeking. The viewer needs to check if they're making the mistake. The specific cost makes it urgent.",
+      "best_for": "Products that correct common mistakes"
+    },
+    {
+      "id": 10,
+      "category": "prediction",
+      "pattern": "Make a bold prediction about the future of the industry",
+      "template": "In [timeframe], [current common practice] will be [obsolete/completely different]. [This] is why.",
+      "examples": [
+        "In 12 months, no serious founder will launch a product without AI-generated scripts. Here's what's already happening.",
+        "By 2027, every sales team will use this. The ones who start now will have an unfair advantage."
+      ],
+      "avg_views": 2000000,
+      "why_it_works": "Creates urgency through future-pacing. The viewer either wants to be early or fears being late. Either way, they watch.",
+      "best_for": "Products at the forefront of a trend"
+    },
+    {
+      "id": 11,
+      "category": "controversy",
+      "pattern": "Take a strong stance that splits the audience",
+      "template": "[Unpopular opinion]: [Bold claim]. [Brief evidence]. [Challenge to disagree].",
+      "examples": [
+        "Unpopular opinion: your product doesn't need a better feature set. It needs a better launch video. Here's proof.",
+        "Hot take: 90% of SaaS landing pages are actively losing customers. I'll prove it in 60 seconds."
+      ],
+      "avg_views": 2600000,
+      "why_it_works": "Polarization drives engagement. People who agree share it. People who disagree comment. Everyone watches to see the evidence.",
+      "best_for": "Any product — controversy is universal"
+    },
+    {
+      "id": 12,
+      "category": "before_after",
+      "pattern": "Show the transformation with extreme specificity",
+      "template": "Before [product]: [painful specific detail]. After [product]: [delightful specific detail]. [Timeframe of change].",
+      "examples": [
+        "Before: spending 4 hours writing launch copy that gets 200 views. After: 45 minutes with AI agents that get 2M views. Same founder. Same product.",
+        "Before: our support team answered 400 tickets a day. After: 12. Our customers didn't decrease. Our product got that much better."
+      ],
+      "avg_views": 1700000,
+      "why_it_works": "The specificity makes both states vivid. The viewer sees themselves in 'before' and wants to be in 'after.' The timeframe makes it feel achievable.",
+      "best_for": "Products with clear before/after transformation"
+    },
+    {
+      "id": 13,
+      "category": "data_shock",
+      "pattern": "Stack multiple surprising data points rapidly",
+      "template": "[Number]. [Number]. [Number]. [What these numbers mean in one line].",
+      "examples": [
+        "20 agents. 45 minutes. $3M in revenue. Here's the system behind the numbers.",
+        "4,000 hours saved. 200 launches. $50M in client revenue. All from one framework."
+      ],
+      "avg_views": 2900000,
+      "why_it_works": "Rapid-fire data creates an overwhelming impression of scale and credibility. The viewer's brain can't process all three at once — they need to watch to understand.",
+      "best_for": "Products with multiple impressive metrics"
+    },
+    {
+      "id": 14,
+      "category": "story",
+      "pattern": "Start in the middle of a pivotal moment",
+      "template": "I was [in the middle of something] when [unexpected thing happened]. [One-line consequence]. That's when I [built/found/realized]...",
+      "examples": [
+        "I was reviewing our 47th failed launch video when it hit me: we'd been writing scripts wrong for 10 years. So I built 20 AI agents to fix it.",
+        "My client called me at 2 AM. His launch flopped. 200 views. I promised him the next one would hit a million. Here's what we changed."
+      ],
+      "avg_views": 2300000,
+      "why_it_works": "In media res drops the viewer into action. The unexpected event creates curiosity. The consequence raises stakes. The reveal promises the solution.",
+      "best_for": "Products with a compelling origin story"
+    },
+    {
+      "id": 15,
+      "category": "reverse_testimonial",
+      "pattern": "Start with skepticism, then the conversion moment",
+      "template": "I thought [product category] was [negative opinion]. Then I saw [specific evidence that changed your mind].",
+      "examples": [
+        "I thought AI-generated scripts were garbage. Then one of our AI scripts outperformed every human-written script in our portfolio.",
+        "I told my team to stop wasting time on this tool. A week later, it saved us $200K. Here's what changed my mind."
+      ],
+      "avg_views": 2100000,
+      "why_it_works": "Viewers relate to the initial skepticism (they probably share it). The conversion moment creates massive curiosity — what evidence was strong enough to change a skeptic's mind?",
+      "best_for": "Products in categories people are skeptical about"
+    }
+  ],
+  "power_words": {
+    "urgency": ["now", "today", "before", "deadline", "last chance", "while", "limited", "immediately"],
+    "exclusivity": ["secret", "insider", "hidden", "nobody talks about", "the ones who know", "private", "exclusive"],
+    "specificity": ["exactly", "step-by-step", "here's how", "the playbook", "word for word", "the framework"],
+    "emotion": ["obsessed", "crushed", "destroyed", "transformed", "exploded", "unleashed", "dominated"],
+    "curiosity": ["why", "how", "what if", "the truth about", "what nobody tells you", "the real reason"],
+    "authority": ["proven", "tested", "backed by", "data shows", "research confirms", "case study"]
+  },
+  "anti_patterns": {
+    "description": "Hook patterns that consistently underperform. Avoid these.",
+    "patterns": [
+      "Starting with 'In this video...' — tells the viewer what's coming, closing the curiosity loop before it opens",
+      "Starting with a question the viewer can answer with 'no' — 'Want to 10x your revenue?' → 'No' → scroll",
+      "Vague superlatives without specifics — 'The most amazing tool ever' means nothing",
+      "Starting with your company name — nobody cares who you are yet",
+      "Long wind-up before the hook — if the hook doesn't land in the first sentence, it's not a hook",
+      "Clickbait that the content can't deliver — breaks trust, kills engagement",
+      "Starting with 'So...' or 'Hey guys...' — filler that signals amateur content"
+    ]
+  }
+}

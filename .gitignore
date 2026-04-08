@@ -1,0 +1,19 @@
+# Output / results (top-level output directory only)
+/output/
+
+# Secrets & credentials
+.env
+credentials.json
+token.json
+
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+
+# Playwright MCP logs
+.playwright-mcp/
+
+# Empty dirs
+prompts/
